@@ -13,7 +13,7 @@ const Hero = () => {
         <a href="https://github.com/" className="w-5 py-2">
           <FaGithub color="#f1f5f9" size={22} />
         </a>
-        <a href="https://www.instagram.com/" className="w-5 py-2">
+        <a href="https://www.instagram.com/kamikreator/" className="w-5 py-2">
           <FaInstagram color="#f1f5f9" size={22} />
         </a>
         <a href="https://twitter.com/" className="w-5 py-2">
@@ -22,8 +22,8 @@ const Hero = () => {
       </div>
       {/* hero */}
       <div className="flex flex-col items-center px-2 xs:px-0">
-        <h1 className="text-3xl xs:text-4xl max-w-xs text-slate-100 font-bold text-center md:max-w-lg lg:text-[2.5rem] lg:leading-tight">
-          Get started on planning the best trip ever
+        <h1 className="text-3xl xs:text-4xl max-w-xs text-slate-100 font-bold text-center md:max-w-lg lg:text-[2.5rem] lg:leading-tight mt-16">
+          Get started on workings with <span className="font-bold text-4xl text-slate-900">Kami Kreator</span>
         </h1>
         <div className="mt-6">
           <Link

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Nav from "./Nav";
 import Link from "next/link";
+import Image from "next/image";
 import { FaPlaneDeparture } from "react-icons/fa";
 
 const Header = () => {
@@ -43,10 +44,11 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-x-4 order-1 w-[25%] box-border pl-6 lmd:pl-14 lg:pl-24 2xl:pl-16">
             <Link href="/">
-              <FaPlaneDeparture
+              {/* <FaPlaneDeparture
                 size={25}
                 color={`${dark ? "#374151" : "#f3f4f6"}`}
-              />
+              /> */}
+              <Image src="/pic/logo.png" alt="logo" width={50} height={50} className="rounded-xl"/>
             </Link>
             <Link
               href="/"
@@ -54,7 +56,7 @@ const Header = () => {
                 dark ? "text-gray-700" : "text-gray-100"
               }`}
             >
-              Kami Creator
+              Kami Kreator
             </Link>
           </div>
           {/* navigation */}

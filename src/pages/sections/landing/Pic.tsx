@@ -25,8 +25,8 @@ const Pic = () => {
   };
   return (
     <section
-      id="destinations"
-      data-testid="destinations"
+      id="promotions"
+      data-testid="promotions"
       className="flex flex-col py-8"
     >
       <div className="min-h-[7.5rem]"></div>

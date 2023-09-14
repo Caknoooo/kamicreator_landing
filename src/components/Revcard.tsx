@@ -50,7 +50,7 @@ const Revcard = ({
             <p className="text-sm font-light">{comment}</p>
           ) : (
             <Image
-              src={comment}
+              src="/pic/1.png"
               alt=""
               width={400}
               height={200}

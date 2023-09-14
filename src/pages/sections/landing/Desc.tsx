@@ -10,7 +10,7 @@ const Desc = () => {
         <div className="basis-1/3 flex items-center justify-center px-4 gap-x-3 xl:basis-1/4">
           <MdLocationOn size={30} />
           <h2 className="xs:text-xl sm:text-2xl lg:text-[1.7rem] font-bold">
-            Sri Lanka
+            Indonesia
           </h2>
         </div>
         {/* advertisment */}
@@ -25,11 +25,11 @@ const Desc = () => {
             <div className=" basis-1/3 flex flex-col justify-center px-2 lg:px-6 xl:px-9">
               <h2 className="text-xl lg:text-[1.375rem] font-bold">01</h2>
               <p className="hidden xs:block text-xs lg:text-[0.8125rem] lg:leading-[1.15rem]">
-                Lorem ipsum dolor sit{" "}
+                Membantu para konten kreator mengetahui apa sebenarnya minatnya dalam bidang konten.{" "}
                 <span className="hidden lg:inline">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "} */}
                   <span className="hidden 2xl:inline">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                    {/* Lorem ipsum dolor sit amet consectetur adipisicing. */}
                   </span>
                 </span>
               </p>
@@ -37,11 +37,11 @@ const Desc = () => {
             <div className=" basis-1/3 flex flex-col justify-center px-2 lg:px-6 xl:px-9">
               <h2 className="text-xl lg:text-[1.375rem] font-bold">02</h2>
               <p className="hidden xs:block text-xs lg:text-[0.8125rem] lg:leading-[1.15rem]">
-                Lorem ipsum dolor sit{" "}
+                Membuat para konten kreator menjadi lebih mengerti segala hal mengenai pembuatan konten dalam berbagai cara.{" "}
                 <span className="hidden lg:inline">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "} */}
                   <span className="hidden 2xl:inline">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                    {/* Lorem ipsum dolor sit amet consectetur adipisicing. */}
                   </span>
                 </span>
               </p>
@@ -49,11 +49,23 @@ const Desc = () => {
             <div className=" basis-1/3 flex flex-col justify-center px-2 lg:px-6 xl:px-9">
               <h2 className="text-xl lg:text-[1.375rem] font-bold">03</h2>
               <p className="hidden xs:block text-xs lg:text-[0.8125rem] lg:leading-[1.15rem]">
-                Lorem ipsum dolor sit{" "}
+                Menciptakan lebih banyak konten kreator yang percaya akan kemampuan yang dimilikinya.{" "}
                 <span className="hidden lg:inline">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+                 {" "}
                   <span className="hidden 2xl:inline">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                    {/* Lorem ipsum dolor sit amet consectetur adipisicing. */}
+                  </span>
+                </span>
+              </p>
+            </div>
+            <div className=" basis-1/3 flex flex-col justify-center px-2 lg:px-6 xl:px-9">
+              <h2 className="text-xl lg:text-[1.375rem] font-bold">04</h2>
+              <p className="hidden xs:block text-xs lg:text-[0.8125rem] lg:leading-[1.15rem]">
+                Menciptakan kesempatan bagi para konten kreator hebat untuk mempublikasikan hasil karyanya.{" "}
+                <span className="hidden lg:inline">
+                 {" "}
+                  <span className="hidden 2xl:inline">
+                    {/* Lorem ipsum dolor sit amet consectetur adipisicing. */}
                   </span>
                 </span>
               </p>

@@ -23,16 +23,16 @@ const Footer = () => {
           {/* main */}
           <div className="flex items-center px-4 md:px-0 xl:w-2/5 md:gap-x-10">
             <Image
-              src="/travel_mockup.png"
+              src="/pic/phone.png"
               alt="img"
               width={180}
               height={100}
-              className="hover:scale-105 transition-all duration-300"
+              className="hover:scale-105 transition-all duration-300 rounded-lg"
             />
             <div className="flex flex-col justify-center gap-y-4">
               <div className="flex flex-col gap-y-2 text-slate-700">
                 <h4 className="text-lg md:text-xl font-bold">
-                  Travel Application
+                  Kami Kreator Application
                 </h4>
                 <p className="text-sm lg:text-base max-w-xs">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
@@ -62,7 +62,7 @@ const Footer = () => {
             <div className="flex items-center gap-x-24 text-sm lg:text-base">
               <ul>
                 <li>
-                  <a href="">Travel Brosure</a>
+                  <a href="">Kami Creator Brosure</a>
                 </li>
                 <li>
                   <a href="">Customer Service</a>
@@ -71,13 +71,13 @@ const Footer = () => {
                   <a href="">Contact Us</a>
                 </li>
                 <li>
-                  <a href="">About Travel</a>
+                  <a href="">About Kami Creator</a>
                 </li>
                 <li>
                   <a href="">FAQ</a>
                 </li>
                 <li>
-                  <a href="">Travel Services</a>
+                  <a href="">Kami Creator Services</a>
                 </li>
                 <li>
                   <a href="">Flight Schedule</a>
@@ -88,7 +88,7 @@ const Footer = () => {
               </ul>
               <ul>
                 <li>
-                  <a href="">Travel Brosure</a>
+                  <a href="">Kami Creator Brosure</a>
                 </li>
                 <li>
                   <a href="">Customer Service</a>
@@ -97,13 +97,13 @@ const Footer = () => {
                   <a href="">Contact Us</a>
                 </li>
                 <li>
-                  <a href="">About Travel</a>
+                  <a href="">About Kami Creator</a>
                 </li>
                 <li>
                   <a href="">FAQ</a>
                 </li>
                 <li>
-                  <a href="">Travel Services</a>
+                  <a href="">Kami Creator Services</a>
                 </li>
                 <li>
                   <a href="">Flight Schedule</a>
@@ -155,7 +155,7 @@ const Footer = () => {
           <div className="flex flex-wrap justify-between items-center min-h-[5rem] px-4 lg:px-16">
             <div className="">
               <Link href="" className="text-xs">
-                &#169; Inter Travel Systems B.V.2014 - 2023
+                &#169; Inter Kami Creator Systems B.V.2014 - 2023
               </Link>
             </div>
             <div className="flex flex-wrap items-center gap-x-2">

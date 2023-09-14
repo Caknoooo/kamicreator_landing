@@ -12,13 +12,14 @@ const Darkheader = () => {
           {/* Logo */}
           <div className="flex items-center gap-x-4 px-6 lg:px-12 lg:mr-12 order-1">
             <Link href="/">
-              <FaPlaneDeparture size={25} color={`#374151`} />
+              {/* <FaPlaneDeparture size={25} color={`#374151`} /> */}
+              <Image src="/pic/logo.png" alt="logo" width={50} height={50} className="rounded-xl"/>
             </Link>
             <Link
               href="/"
               className={`hidden lg:inline text-gray-700 text-lg sm:text-xl lg:text-[1.375rem] font-bold tracking-wide`}
             >
-              Travel
+              Kami Kreator
             </Link>
           </div>
 
